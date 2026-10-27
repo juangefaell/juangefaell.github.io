@@ -20,7 +20,7 @@
 .cv-page-title{margin-bottom:24px}
 
 /* Consistent text alignment and image framing across the site. */
-main p:not(.publication-authors):not(.publication-venue):not(.publication-count){text-align:justify;text-justify:inter-word}.hero-photo{border:1px solid var(--ink);border-radius:12px;box-shadow:0 6px 18px rgba(23,44,49,.08)}.page-content img,.post-content img,.gallery img{border:1px solid var(--ink);border-radius:12px;box-shadow:0 6px 18px rgba(23,44,49,.08)}.research-content figure.research-figure img{border:0;border-radius:12px;box-shadow:0 6px 18px rgba(23,44,49,.08)}.skateboarding-content{max-width:820px}.skateboarding-content figure.skate-photo img{border:1px solid var(--ink);border-radius:12px;box-shadow:0 6px 18px rgba(23,44,49,.08)}
+main p:not(.publication-authors):not(.publication-venue):not(.publication-count){text-align:justify;text-justify:inter-word}.hero-photo{border:1px solid var(--ink);border-radius:12px;box-shadow:0 6px 18px rgba(23,44,49,.08)}.skateboarding-content{max-width:820px}
 
 
 /* Contact page and split footer */
