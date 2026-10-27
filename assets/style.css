@@ -151,3 +151,5 @@ body{font-family:var(--font-body)}
 .research-content>h2:first-child{margin-top:0}
 .contact-item dt{color:var(--accent-red)}
 .recent-publications li:last-child{border-bottom:0}
+/* Override the legacy Research heading color with the shared magenta accent. */
+.page-content.research-content h2,.page-content.research-content h2 strong{color:var(--accent-red)!important}
