@@ -1,6 +1,6 @@
 # Juan Gefaell personal website
 
-This folder is a static website prepared from the WordPress content and media exports. It contains the Home, Research, Publications, CV, Blog, and Skateboarding pages, plus individual files for all 18 published posts.
+This folder is a static website prepared from the WordPress content and media exports. It contains the Home, Research, Publications, CV, and Skateboarding pages, plus individual files for published posts.
 
 ## Publish to GitHub Pages
 
