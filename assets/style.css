@@ -78,3 +78,6 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 
 .contact-main .page-intro{max-width:820px;margin:0 0 16px}
 .contact-main .page-intro{color:var(--ink)}
+
+/* Keep main paragraph text at the same size across non-Publications pages. */
+.hero p,.research-content p,.plain-page-content p,.contact-main p,.post-content p{font-size:1rem}
