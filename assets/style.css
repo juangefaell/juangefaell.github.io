@@ -77,3 +77,4 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 .scholar-profile a::after{content:"↗";margin-left:.4em;color:var(--accent)}
 
 .contact-main .page-intro{max-width:820px;margin:0 0 16px}
+.contact-main .page-intro{color:var(--ink)}
