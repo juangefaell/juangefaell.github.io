@@ -47,3 +47,8 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 
 /* Research figure captions match the Skateboarding photo legends. */
 .research-content figure.research-figure figcaption{margin:10px 0 0;padding:6px 0 6px 12px;border-left:2px solid var(--accent);color:var(--muted);font-size:.88rem;line-height:1.55;font-style:italic}
+
+/* Keep one divider below Contact and leave the contact details unsegmented. */
+.contact-list{margin:28px 0 0;padding:12px 0 0;border-top:1px solid var(--line)}
+.contact-item{border-bottom:0}
+.contact-item:first-child{border-top:0}
