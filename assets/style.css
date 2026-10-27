@@ -70,3 +70,8 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 
 @media(max-width:800px){.contact-main,.publications-main{padding:32px 20px 55px}}
 .cv-page-title{max-width:820px;margin-left:auto;margin-right:auto}
+
+/* Full Google Scholar list link */
+.scholar-profile{margin:28px 0 0;padding-top:0;border-top:0}
+.scholar-profile a::before{content:"•";margin-right:.65em;color:var(--accent)}
+.scholar-profile a::after{content:"↗";margin-left:.4em;color:var(--accent)}
