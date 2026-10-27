@@ -23,9 +23,11 @@
 main p:not(.publication-authors):not(.publication-venue):not(.publication-count){text-align:justify;text-justify:inter-word}.hero-photo{border:1px solid var(--ink);border-radius:12px;box-shadow:0 6px 18px rgba(23,44,49,.08)}.skateboarding-content{max-width:820px}
 
 
-/* Contact page and split footer */
-.site-footer{justify-content:space-between;align-items:center;gap:20px;text-align:left;padding:22px 30px 30px}
+/* Contact page and shared three-part footer */
+.site-footer{display:grid;grid-template-columns:minmax(0,1fr) 58px minmax(0,1fr);align-items:center;gap:20px;text-align:left;padding:22px 30px 30px}
 .site-footer span{position:static;width:auto;height:auto;padding:0;margin:0;overflow:visible;clip:auto;white-space:normal;border:0}
+.site-footer .footer-figure{display:block;width:58px;height:78px;background:url('2025/08/materials_drawings_science_thinkingevolution-edited.png') center/contain no-repeat;mix-blend-mode:multiply}
+.site-footer .footer-location{text-align:right}
 .site-footer:before{content:none;display:none}
 .contact-main{max-width:850px;min-height:55vh;padding-top:56px}
 .contact-main .page-title{margin-bottom:0}
@@ -37,4 +39,4 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 .contact-item dd{margin:0;color:var(--ink)}
 .contact-item a{text-decoration:none}
 .contact-item a:hover{text-decoration:underline}
-@media(max-width:600px){.site-footer{padding:20px;gap:10px;font-size:.82rem}.contact-main{padding-top:36px}.contact-item{grid-template-columns:1fr;gap:4px;padding:15px 0}}
+@media(max-width:600px){.site-footer{grid-template-columns:minmax(0,1fr) 46px minmax(0,1fr);padding:20px;gap:10px;font-size:.78rem}.site-footer .footer-figure{width:46px;height:64px}.contact-main{padding-top:36px}.contact-item{grid-template-columns:1fr;gap:4px;padding:15px 0}}
