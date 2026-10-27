@@ -134,3 +134,8 @@ body{font-family:var(--font-body)}
 .page-content h2,.page-content h3,.post-content h2,.post-content h3{font-family:var(--font-editorial)}
 /* Keep the Home and Contact page titles on the editorial heading font. */
 .hero .welcome-title,.contact-main>.page-title{font-family:var(--font-editorial);letter-spacing:-.025em}
+
+/* Keep publication years and titles visually identical on Home and Publications. */
+.publication-year,.recent-year{color:var(--accent-red);font-family:var(--font-ui);font-size:1rem;font-weight:700;line-height:1.45;font-variant-numeric:tabular-nums}
+.recent-title{font-family:var(--font-editorial);font-size:1.12rem;font-weight:700;line-height:1.45;letter-spacing:-.025em}
+.recent-meta{font-family:var(--font-body);font-size:.93rem!important;line-height:1.55!important}
