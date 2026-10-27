@@ -52,3 +52,4 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 .contact-list{margin:28px 0 0;padding:12px 0 0;border-top:1px solid var(--line)}
 .contact-item{border-bottom:0}
 .contact-item:first-child{border-top:0}
+.contact-list{padding-top:0;border-top:0}
