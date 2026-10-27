@@ -81,3 +81,4 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 
 /* Keep main paragraph text at the same size across non-Publications pages. */
 .hero p,.research-content p,.plain-page-content p,.contact-main p,.post-content p{font-size:1rem}
+.hero p{color:var(--ink)}
