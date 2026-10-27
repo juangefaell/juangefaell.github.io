@@ -150,3 +150,4 @@ body{font-family:var(--font-body)}
 .research-content>h2,.research-content>h2 strong{font:700 clamp(1.08rem,2vw,1.35rem)/1.35 var(--font-ui);letter-spacing:-.015em;color:var(--accent-red)!important;margin:40px 0 14px}
 .research-content>h2:first-child{margin-top:0}
 .contact-item dt{color:var(--accent-red)}
+.recent-publications li:last-child{border-bottom:0}
