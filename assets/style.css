@@ -43,3 +43,7 @@ main p:not(.publication-authors):not(.publication-venue):not(.publication-count)
 
 /* Match Contact and CV page titles to the green section headings. */
 .cv-page-title,.contact-main>.page-title{font:700 clamp(1.45rem,2.6vw,1.85rem)/1.3 'Manrope',sans-serif;letter-spacing:-.025em;color:var(--accent)}
+
+
+/* Research figure captions match the Skateboarding photo legends. */
+.research-content figure.research-figure figcaption{margin:10px 0 0;padding:6px 0 6px 12px;border-left:2px solid var(--accent);color:var(--muted);font-size:.88rem;line-height:1.55;font-style:italic}
