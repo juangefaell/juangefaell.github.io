@@ -132,3 +132,5 @@ body{font-family:var(--font-body)}
 .hero h1,.section-heading h2,.page-title,.research-content>h2,.skateboarding-content>h2,.home-recent-heading h2,.publication-title,.cv-page-title{font-family:var(--font-editorial)}
 .hero h1,.section-heading h2,.page-title,.research-content>h2,.skateboarding-content>h2,.home-recent-heading h2,.publication-title,.cv-page-title{letter-spacing:-.025em}
 .page-content h2,.page-content h3,.post-content h2,.post-content h3{font-family:var(--font-editorial)}
+/* Keep the Home and Contact page titles on the editorial heading font. */
+.hero .welcome-title,.contact-main>.page-title{font-family:var(--font-editorial);letter-spacing:-.025em}
